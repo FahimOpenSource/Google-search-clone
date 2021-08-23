@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Poppins:wght@600&family=Rampart+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.container .navBtn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  position: absolute;
+  top: 0px;
+}
+
+.container .navBtn-container span {
+  padding: 10px;
+}
+
+.container .navBtn-container span .button {
+  border: none;
+  background-color: transparent;
+}
+
+.container .front-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  width: 70vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.container .front-end .logo {
+  width: 50vw;
+  height: 28vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.container .front-end .logo .sect-1 {
+  position: absolute;
+  bottom: 16px;
+}
+
+.container .front-end .logo .sect-2 {
+  padding-left: 210px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.container .front-end .logo .sect-2 span {
+  color: #4285f4;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.container .front-end .search-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.container .front-end .search-field span {
+  width: 20px;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+.container .front-end .search-field .search-bar {
+  border: 1px solid #dfe1e5;
+  border-radius: 50px;
+  padding: 10px 13vw;
+}
+
+.container .creater {
+  position: absolute;
+  bottom: 0px;
+  width: 70vw;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .creater .presentation {
+  width: 70vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.container .creater .presentation .text {
+  padding-right: 75px;
+  position: absolute;
+  bottom: 20px;
+  height: 30px;
+  width: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.container .creater .presentation .myName {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  bottom: 16px;
+  padding-left: 121px;
+  font-family: 'Fira Code', monospace;
+  font-size: 20px;
+}
+
+.container .creater .links {
+  position: relative;
+  background-color: pink;
+  width: 70vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+}
+
+.container .creater .links .follow {
+  position: absolute;
+  z-index: 2;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Rampart One', cursive;
+  font-size: 16px;
+}
+
+.container .creater .links #ig-logo {
+  padding-left: 200px;
+  position: absolute;
+}
+
+.container .creater .links #ig-logo .instagram {
+  display: inline-block;
+  width: 55px;
+  height: 50px;
+  text-align: center;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 45px;
+  line-height: 50px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=image-style.css.map */

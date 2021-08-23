@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&family=Poppins:wght@600&family=Rampart+One&display=swap");
+.form .sumit-buttons .sumit-search, .form .sumit-buttons .sumit-lucky {
+  border: 1px solid #f8f9fa;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  padding: 9px 16px;
+  color: #3c4043;
+  margin-top: 6px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+}
+
+.container .front-end-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70vw;
+  height: inherit;
+}
+
+.container .front-end-container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 25vh;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .front-end-container .logo .google-logo {
+  max-width: calc(100px + 100vw);
+  position: absolute;
+  bottom: 5px;
+}
+
+.container .creater {
+  position: absolute;
+  bottom: 1px;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .creater .presentation {
+  width: 70vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.container .creater .presentation .text {
+  padding-right: 75px;
+  position: absolute;
+  bottom: 20px;
+  height: 30px;
+  width: 150px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.container .creater .presentation .myName {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+  bottom: 16px;
+  padding-left: 121px;
+  font-family: 'Fira Code', monospace;
+  font-size: 20px;
+}
+
+.container .creater .links {
+  position: relative;
+  background-color: pink;
+  width: 70vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+}
+
+.container .creater .links .follow {
+  position: absolute;
+  z-index: 2;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Rampart One', cursive;
+  font-size: 16px;
+}
+
+.container .creater .links #ig-logo {
+  padding-left: 200px;
+  position: absolute;
+}
+
+.container .creater .links #ig-logo .instagram {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  text-align: center;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 45px;
+  line-height: 57px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container .navBtn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.container .navBtn-container div {
+  padding-left: 3px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.container .navBtn-container div .button2 {
+  border: none;
+  background-color: transparent;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.form .search-field {
+  position: absolute;
+  top: 20px;
+}
+
+.form .search-field .query {
+  padding: 10px 15vw;
+  border-radius: 50px;
+  border: 1px solid #dfe1e5;
+  position: relative;
+}
+
+.form .search-field .search-logo {
+  position: absolute;
+  left: 10px;
+  bottom: 5px;
+  width: 25px;
+}
+
+.form .sumit-buttons {
+  height: 50px;
+  width: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 75px;
+}
+
+.form .sumit-buttons .sumit-lucky {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=index-styles.css.map */
